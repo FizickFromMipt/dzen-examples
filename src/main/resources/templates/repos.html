@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Ваши GitHub репозитории</title>
+</head>
+<body>
+<h1>Ваши GitHub репозитории:</h1>
+<ul>
+    <li th:each="repo : ${repos}">
+        <span th:text="${repo['name']}">Имя репозитория</span>
+    </li>
+</ul>
+</body>
+</html>
