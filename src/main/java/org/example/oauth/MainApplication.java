@@ -1,4 +1,4 @@
-package org.example.oauth.controller;
+package org.example.oauth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
